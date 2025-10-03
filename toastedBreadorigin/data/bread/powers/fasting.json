@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_exhaustion",
+    "name": "Fasting",
+    "description": "Because you come from the nether and there's such little edible food their you can go longer times without eating food",
+    "hidden": false,
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.5
+    }
+}
