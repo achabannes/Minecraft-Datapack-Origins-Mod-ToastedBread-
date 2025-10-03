@@ -1,0 +1,30 @@
+{
+    "type": "origins:action_over_time",
+    "hidden": true,
+    "interval": 10,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run clear @s raw_gold 1"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @s run give @s minecraft:gold_ingot 1"
+            }
+        ]
+    },
+    "name": "Gold ore",
+    "description": "Gold",
+    "condition": {
+        "type": "origins:command",
+        "inverted": false,
+        "comparison": ">=",
+        "compare_to": 1,
+        "permission_level": 4,
+        "command": "execute if data entity @s Inventory[{id:\"minecraft:raw_gold\"}]"
+    }
+}
