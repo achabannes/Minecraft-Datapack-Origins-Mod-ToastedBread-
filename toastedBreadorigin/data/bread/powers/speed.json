@@ -1,0 +1,22 @@
+{
+    "type": "origins:stacking_status_effect",
+    "name": "Heat boost",
+    "description": "While in the nether or hot biomes you receive speed 1",
+    "hidden": false,
+    "condition": {
+        "type": "origins:dimension",
+        "inverted": false,
+        "dimension": "minecraft:the_nether"
+    },
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+        "duration": 100,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true,
+        "effect": "minecraft:speed",
+        "amplifier": 0
+    }
+}
