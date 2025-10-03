@@ -1,0 +1,20 @@
+{
+  "name": "Small arms",
+  "description": "Due to your smaller height, you have decreased reach.",
+
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "Extra Reach block reach",
+      "attribute": "reach-entity-attributes:reach",
+      "value": 0,
+      "operation": "addition"
+    },
+    {
+      "name": "Extra Reach entity reach",
+      "attribute": "reach-entity-attributes:attack_range",
+      "value": -0.4,
+      "operation": "addition"
+    }
+  ]
+}
