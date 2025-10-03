@@ -1,0 +1,23 @@
+{
+   "powers":[
+		"bread:fireproof",
+        "bread:small",
+		"bread:speed",
+		"bread:melt",
+		"origins:water_vulnerability",
+		"bread:particle",
+		"bread:autosmelt_iron",
+		"bread:autosmelt_gold",
+	    "bread:cold",
+		"bread:health",
+		"bread:reach",
+		"bread:fasting",
+		"bread:fireball",
+		"origins:water_vulnerability"
+   ],
+   "icon":"minecraft:bread",
+   "order":5,
+   "impact":2,
+   "name":"Toasted Bread",
+   "description":"You've been toasted too long and now have insane fire powers"
+}
