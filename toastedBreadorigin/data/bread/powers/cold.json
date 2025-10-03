@@ -1,0 +1,30 @@
+{
+    "type": "origins:stacking_status_effect",
+    "name": "Frigophobia",
+    "hidden": false,
+    "description": "When in cold biomes you receive slowness 1",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+        "duration": 100,
+        "is_ambient": false,
+        "show_particles": true,
+        "show_icon": true,
+        "effect": "minecraft:slowness",
+        "amplifier": 0
+    },
+    "condition": {
+        "type": "origins:biome",
+        "inverted": false,
+        "biomes": [
+            "snowy_taiga",
+            "snowy_taiga_hills",
+            "snowy_taiga_mountains",
+            "snowy_tundra",
+            "snowy_mountains",
+            "cold_ocean",
+            "deep_cold_ocean"
+        ]
+    }
+}
