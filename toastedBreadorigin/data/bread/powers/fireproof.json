@@ -1,0 +1,5 @@
+{
+    "name": "Fireproof",
+    "description": "You don’t take damage to fire or lava.",
+    "type": "origins:fire_immunity"
+}
