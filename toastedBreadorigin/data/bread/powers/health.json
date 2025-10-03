@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -4,
+        "operation": "addition"
+    },
+    "name": "Very smol",
+    "description": "Due to being a small being you have 2 less hearts",
+    "hidden": false
+}
